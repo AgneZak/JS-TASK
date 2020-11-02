@@ -1,6 +1,6 @@
 import Component from "../library/Component";
 import h from "../library/hyperscript";
-import Navigation from "../components/Navigation";
+
 
 const user = JSON.parse(localStorage.getItem('user'))
 
