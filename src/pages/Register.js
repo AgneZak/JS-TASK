@@ -67,7 +67,7 @@ export default class Register extends Component {
                 if (data === 'success') {
                     this.props.route('login');
                     alert('Sveikinimai, Jūs sėkmingai prisiregistravote galite prisijungti')
-                }else{
+                }else {
                     alert('Toks vartojas jau egzistuoja arba blogai įvesti duomenys')
                 }
             });
