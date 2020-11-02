@@ -76,7 +76,7 @@ export default class Register extends Component {
 
     render() {
         const inputs = this.state.inputs.map(input => {
-            return h('label', {class: 'register__label'}, input.labelText,
+            return h('label', {}, input.labelText,
                 h(
                     'input',
                     {

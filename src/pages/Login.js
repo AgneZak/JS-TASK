@@ -66,7 +66,7 @@ export default class Login extends Component {
 
     render() {
         const inputs = this.state.inputs.map(input => {
-            return h('label', {class: 'login__label'}, input.labelText,
+            return h('label', {}, input.labelText,
                 h(
                     'input',
                     {
